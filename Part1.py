@@ -23,8 +23,8 @@ seismes.drop("index", axis=1, inplace=True)
 
 
 # plotting the boxplot
-# seismes.boxplot(by = 'pays', column = ['mag'], grid = False, whis=10)
-# plt.show()
+seismes.boxplot(by = 'pays', column = ['mag'], grid = False, whis=10)
+plt.show()
 
 
 # Searching the 6 countries with the highest magnitudes
